@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/AntonioFisk/Desktop/New%20PC/Personal%20Projects/Wine-Quality-Prediction/Wine-Quality-Prediction-using-MLFlow-and-Github-actions/mlruns/0/ddcb1ea914ad408cbb82b2eb0aeb371b/artifacts
+end_time: 1757601222550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ddcb1ea914ad408cbb82b2eb0aeb371b
+run_name: puzzled-cub-920
+run_uuid: ddcb1ea914ad408cbb82b2eb0aeb371b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757601209564
+status: 3
+tags: []
+user_id: AntonioFisk
