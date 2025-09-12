@@ -2,7 +2,9 @@ FROM python:3.8-slim-buster
 
 
 RUN apt-get update && \
-    apt-get install -y awscli --no-install-recommends
+    apt-get install -y curl unzip && \
+    pip install awscli
+    
 WORKDIR /app
 
 COPY . /app
