@@ -3,6 +3,7 @@ FROM python:3.8-slim-buster
 # Set noninteractive mode to avoid prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Install system dependencies and AWS CLI via pip
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         curl \
