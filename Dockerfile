@@ -1,5 +1,5 @@
-FROM debian:bullseye
-RUN apt update -y && apk install awscli -y
+FROM python:3.8-slim-buster
+RUN apt-get update -y && apt-get install awscli -y
 
 WORKDIR /app
 
