@@ -1,5 +1,5 @@
-FROM python:3.8-slim-buster
-RUN apt update -y && apk add aws-cli -y
+FROM debian:bullseye
+RUN apt update -y && apk install awscli -y
 
 WORKDIR /app
 
